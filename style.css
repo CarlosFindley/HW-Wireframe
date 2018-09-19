@@ -33,7 +33,7 @@ nav {
 }
 
 section {
-    float: left;
+    /* removed float left since it was not needed after adding display inline-flex */
     margin-right: 20px;
     width: 60%;
 }
@@ -57,7 +57,7 @@ article {
 }
 
 aside {
-    float: right;
+    /* removed float right since it was not needed after adding display inline-flex */
     width: 33%;
 }
 
