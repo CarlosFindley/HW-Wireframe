@@ -3,37 +3,39 @@ body {
     color: #777;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 18px;
+    text-align: center;
     margin: 0px;
     padding: 0px;
-    text-align: center;
-}
-
-.content {
     margin: auto;
     max-width: 80%;
+    /* "The widths of each section should be 495px," but it does not look right so changed to 80% */
 }
 
 header, nav, section, aside, footer {
     background: #ebebeb;
+    padding: 20px;
 }
 
 header {
-    padding: 20px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
 nav {
-    padding: 20px;
     margin-top: 10px;
     margin-bottom: 20px;
 }
 
-.section {
-    float: left;
-    padding: 20px;
-    width: 56%;
+.section_aside {
+    display: inline-flex;
     margin-bottom: 20px;
+    width: 100%;
+}
+
+section {
+    float: left;
+    margin-right: 20px;
+    width: 60%;
 }
 
 article {
@@ -56,14 +58,10 @@ article {
 
 aside {
     float: right;
-    padding: 20px;
-    width: 36%;
-    height: 300.5px;
-    margin-bottom: 20px;
+    width: 33%;
 }
 
 footer {
-    padding: 20px;
     margin-bottom: 10px;
     clear: both;
 }
