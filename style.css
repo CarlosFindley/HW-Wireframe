@@ -1,7 +1,7 @@
 body {
     background: #777;
     color: #777;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     font-size: 18px;
     text-align: center;
     margin: 0px;
@@ -11,7 +11,11 @@ body {
     /* "The widths of each section should be 495px," but it does not look right so changed to 80% */
 }
 
-header, nav, section, aside, footer {
+header,
+nav,
+section,
+aside,
+footer {
     background: #ebebeb;
     padding: 20px;
 }
@@ -33,7 +37,7 @@ nav {
 }
 
 section {
-    /* removed float left since it was not needed after adding display inline-flex */
+    /* removed float left since it was not needed after adding display inline-flex box */
     margin-right: 20px;
     width: 60%;
 }
@@ -57,7 +61,7 @@ article {
 }
 
 aside {
-    /* removed float right since it was not needed after adding display inline-flex */
+    /* removed float right since it was not needed after adding display inline-flex box */
     width: 33%;
 }
 
